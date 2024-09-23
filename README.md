@@ -1,11 +1,26 @@
-# Withanolide_biosynthesis
 This repository includes code used in the article:   
-Phylogenomics and metabolic engineering reveal a conserved gene cluster in Solanaceae plants for withanolide biosynthesis
-Circos Plot:(Withanolide_biosynthesis/Circos)
+# Phylogenomics and metabolic engineering reveal a conserved gene cluster in Solanaceae plants for withanolide biosynthesis
 
-1_gene_density.py: Calculates gene density per chromosome/contig from a gff3 file
-2_tandem_repeat_density.py: Calculates tandem repeat density from a TRF .dat output file
-3_EDTA_summary.py: 
-4_TE_density.py:
-5_GC_density.py: Calculates GC density per chromosomes/contig from an assembly fasta file
-6_circos.conf: Circos configuration file 
+## Building the Circos Plot:(Withanolide_biosynthesis/Circos)
+
+1. _extract_top_seq.py_: Extracts top _n_ sequences by size from the assembly fasta file.
+    
+2. _karyotype.py_: Creates a circos format karyotype file
+
+3. _gene_density.py_: Calculates gene density per chromosome/contig from a gff3 file																																																											
+
+4. _tandem_repeat_density.py_: Calculates tandem repeat density from a TRF .dat output file
+
+5. _EDTA_summary.py_: 
+
+6. _TE_density.py_:
+
+7. _GC_density.py_: Calculates GC density per chromosomes/contig from an assembly fasta file
+
+8. _circos.conf_: Circos configuration file 
+
+## Building the Expression Heatmap: (Withanolide_biosynthesis/Heatmap) 
+_Expression_hm.R:_ R code to plot the expression heatmap 
+
+## Data availability
+The raw sequencing data for _Withania somnifera_ is available through the European Nucleotide Archive Project **PRJEB64854**. Root gene expression raw data is available at **ERR13615536**. The genome assembly and gene annotation sequences for _W. somnifera_ are available LeoPARD at https://leopard.tu-braunschweig.de/receive/dbbs_mods_00077979. _Physalis pruinosa_ and _P. grisea_ gene re-annotated sequences are available at https://leopard.tu-braunschweig.de/receive/dbbs_mods_00077980. Code used throughout the article is available at the GitHub repository: https://github.com/NancyChoudhary28/Withanolide_biosynthesis/

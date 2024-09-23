@@ -1,5 +1,5 @@
 # Withanolide_biosynthesis
-This repository includes code used in the article: 
+This repository includes code used in the article:   
 Phylogenomics and metabolic engineering reveal a conserved gene cluster in Solanaceae plants for withanolide biosynthesis
 Circos Plot:(Withanolide_biosynthesis/Circos)
 

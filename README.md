@@ -3,11 +3,19 @@ This repository includes code used in the article:
 
 ## Building the Circos Plot:(Withanolide_biosynthesis/Circos)
 
-1. _extract_top_seq.py_: Extracts top _n_ sequences by size from the assembly fasta file.
+1. _extract_top_seq.py_: Extract the top _n_ longest sequences from an assembly fasta file.
+
+Usage:
+
+    python3 extract_top_seq.py
+
+    --in <Full path to assembly fasta file>
+    --out <Full path to output text file>
+    --n <INT, number of chromosomes/contigs you want to show in the circos plot>
     
 2. _karyotype.py_: Creates a circos format karyotype file
 
-3. _gene_density.py_: Calculates gene density per chromosome/contig from a gff3 file																																																											
+3. _gene_density.py_: Calculates gene density per chromosome/contig from a gff3 file                                              				
 
 4. _tandem_repeat_density.py_: Calculates tandem repeat density from a TRF .dat output file
 
@@ -23,4 +31,4 @@ This repository includes code used in the article:
 _Expression_hm.R:_ R code to plot the expression heatmap 
 
 ## Data availability
-The raw sequencing data for _Withania somnifera_ is available through the European Nucleotide Archive Project **PRJEB64854**. Root gene expression raw data is available at **ERR13615536**. The genome assembly and gene annotation sequences for _W. somnifera_ are available LeoPARD at https://leopard.tu-braunschweig.de/receive/dbbs_mods_00077979. _Physalis pruinosa_ and _P. grisea_ gene re-annotated sequences are available at https://leopard.tu-braunschweig.de/receive/dbbs_mods_00077980. Code used throughout the article is available at the GitHub repository: https://github.com/NancyChoudhary28/Withanolide_biosynthesis/
+The raw sequencing data for _Withania somnifera_ is available through the European Nucleotide Archive Project **PRJEB64854**. Root gene expression raw data is available at **ERR13615536**. The genome assembly and gene annotation sequences for _W. somnifera_ are available via LeoPARD at https://leopard.tu-braunschweig.de/receive/dbbs_mods_00077979. _Physalis pruinosa_ and _P. grisea_ gene re-annotated sequences are available at https://leopard.tu-braunschweig.de/receive/dbbs_mods_00077980. Code used throughout the article is available at the GitHub repository: https://github.com/NancyChoudhary28/Withanolide_biosynthesis/

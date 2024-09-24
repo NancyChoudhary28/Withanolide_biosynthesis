@@ -9,23 +9,34 @@ Usage:
 
     python3 extract_top_seq.py
 
-    --in <Full path to assembly fasta file>
-    --out <Full path to output text file>
-    --n <INT, number of chromosomes/contigs you want to show in the circos plot>
+    --in    <Full path to assembly fasta file>
+    --out   <Full path to output text file>
+    --n     <INT, number of chromosomes/contigs you want to show in the circos plot>
     
-2. _karyotype.py_: Creates a circos format karyotype file
+2. _karyotype.py_: Generate a Circos karyotype file from an assembly FASTA file.
 
-3. _gene_density.py_: Calculates gene density per chromosome/contig from a gff3 file                                              				
+Usage:
 
-4. _tandem_repeat_density.py_: Calculates tandem repeat density from a TRF .dat output file
+    python3 karyotype.py
 
-5. _EDTA_summary.py_: 
+    --input,  -i  <Path to the input fasta file>
+    --output, -o  <Path to the output karyotype file>
+    --color,  -c  <Color for all chromosomes/contigs. Default is RdGy-3-div-3>
 
-6. _TE_density.py_:
+ If you want to change the chromosomes/contigs names on the circos plot, edit the 4th column in the output karyotype file accordingly. For circos-format color definitions, please see the documentation at 
+ https://circos.ca/documentation/tutorials/configuration/colors/.
 
-7. _GC_density.py_: Calculates GC density per chromosomes/contig from an assembly fasta file
+4. _gene_density.py_: Calculates gene density per chromosome/contig from a gff3 file                                              				
 
-8. _circos.conf_: Circos configuration file 
+5. _tandem_repeat_density.py_: Calculates tandem repeat density from a TRF .dat output file
+
+6. _EDTA_summary.py_: 
+
+7. _TE_density.py_:
+
+8. _GC_density.py_: Calculates GC density per chromosomes/contig from an assembly fasta file
+
+9. _circos.conf_: Circos configuration file used in this study
 
 ## Building the Expression Heatmap: (Withanolide_biosynthesis/Heatmap) 
 _Expression_hm.R:_ R code to plot the expression heatmap 

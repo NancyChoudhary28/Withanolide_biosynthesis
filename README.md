@@ -5,26 +5,26 @@ This repository includes code used in the article:
 
 1. _extract_top_seq.py_: Extract the top _n_ longest sequences from an assembly fasta file.
 
-Usage:
+    Usage:
 
-    python3 extract_top_seq.py
+        python3 extract_top_seq.py
 
-    --in    <Full path to assembly fasta file>
-    --out   <Full path to output text file>
-    --n     <INT, number of chromosomes/contigs you want to show in the circos plot>
+        --in    <Full path to assembly fasta file>
+        --out   <Full path to output text file>
+        --n     <INT, number of chromosomes/contigs you want to show in the circos plot>
     
 2. _karyotype.py_: Generate a Circos karyotype file from an assembly FASTA file.
 
-Usage:
+    Usage:
 
-    python3 karyotype.py
+        python3 karyotype.py
 
-    --input,  -i  <Path to the input fasta file>
-    --output, -o  <Path to the output karyotype file>
-    --color,  -c  <Color for all chromosomes/contigs. Default is RdGy-3-div-3>
+        --input,  -i  <Path to the input fasta file>
+        --output, -o  <Path to the output karyotype file>
+        --color,  -c  <Color for all chromosomes/contigs. Default is RdGy-3-div-3>
 
- If you want to change the chromosomes/contigs names on the circos plot, edit the 4th column in the output karyotype file accordingly. For circos-format color definitions, please see the documentation at 
- https://circos.ca/documentation/tutorials/configuration/colors/.
+     If you want to change the chromosomes/contigs names on the circos plot, edit the 4th column in the output karyotype file accordingly. For circos-format color definitions, please see the documentation at 
+     https://circos.ca/documentation/tutorials/configuration/colors/.
 
 4. _gene_density.py_: Calculates gene density per chromosome/contig from a gff3 file                                              				
 

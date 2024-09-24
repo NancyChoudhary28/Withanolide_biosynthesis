@@ -29,11 +29,11 @@ def extract_top_longest_sequences(assembly_file, output_file, n):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Extract the top N longest sequences from a FASTA file.")
 
-    parser.add_argument('--in', required=True, help="Path to the input assembly file (FASTA format).")
-    parser.add_argument('--out', required=True, help="Path to the output file where the top N sequences will be saved.")
+    parser.add_argument('--input', required=True, help="Path to the input assembly file (FASTA format).")
+    parser.add_argument('--output', required=True, help="Path to the output file where the top N sequences will be saved.")
     parser.add_argument('--n', type=int, required=True, help="Number of top longest sequences to extract.")
 
     args = parser.parse_args()
 
-    extract_top_longest_sequences(args.in, args.out, args.n)
+    extract_top_longest_sequences(args.input, args.output, args.n)
 

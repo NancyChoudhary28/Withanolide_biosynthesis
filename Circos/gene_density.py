@@ -1,23 +1,25 @@
 import sys
 
-def read_chromosome_sizes(chromosome_size_file):
+def read_chromosome_sizes(karyotype_file):
     chrm = {}
-    with open(chromosome_size_file) as f:
+    with open(karyotype_file) as f:
         for line in f:
             parts = line.strip().split()
-            if len(parts) != 2:
-                continue  
-            chromosome = parts[0]
+            if len(parts) < 6 or parts[0] != "chr" or parts[1] != "-":
+                continue 
+            
+            chromosome = parts[2]  
             try:
-                size = int(parts[1])
+                size = int(parts[5])
             except ValueError:
-                print(f"Invalid size for chromosome {chromosome}: {parts[1]}")
+                print(f"Invalid size for chromosome {chromosome}: {parts[5]}")
                 continue
             chrm[chromosome] = size
     return chrm
 
-def calculate_gene_density(gff_file, chromosome_size_file, window_size):
-    chrm = read_chromosome_sizes(chromosome_size_file)
+def calculate_gene_density(gff_file, karyotype_file, window_size):
+    """Calculates gene density across chromosomes using a given window size."""
+    chrm = read_chromosome_sizes(karyotype_file)
     
     if not chrm:
         print("No valid chromosome size information found.")
@@ -57,11 +59,11 @@ def calculate_gene_density(gff_file, chromosome_size_file, window_size):
 
 if __name__ == "__main__":
     if len(sys.argv) != 4:
-        print("Usage: python script.py <gff_file> <chromosome_size_file> <window_size>")
+        print("Usage: python3 gene_density.py <gff_file> <karyotype_file> <window_size>")
         sys.exit(1)
     
     gff_file = sys.argv[1]
-    chromosome_size_file = sys.argv[2]
+    karyotype_file = sys.argv[2]
     window_size = int(sys.argv[3])
 
-    calculate_gene_density(gff_file, chromosome_size_file, window_size)
+    calculate_gene_density(gff_file, karyotype_file, window_size)

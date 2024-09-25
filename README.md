@@ -30,21 +30,32 @@ This repository includes code used in the article:
 
     Usage:
 
-       python3 gene_density.py <gff_file> <chromosome_size_file> <window_size>
+       python3 gene_density.py <gff_file> <karyotype_file> <window_size>
 
-       <gff_file>              Path to the GFF file containing gene information
-       <chromosome_size_file>  The path to the text file with chromosome/contig sizes (space-separated format: chromosome_name<space>size). To create this file, use "awk '{print $3, $6}' karyotype_file > chromosome_size_file"
-       <window_size>           The size of the windows for gene density calculation (e.g., 1000000 for 1Mb windows)
+       gff_file         Path to the GFF file containing gene information
+       karyotype_file   Path to the karyotype file (Created in the previous step) 
+       window_size      The size of the windows for gene density calculation (e.g., 1000000 for 1Mb windows)
    
-6. _tandem_repeat_density.py_: Calculates tandem repeat density from a TRF .dat output file
+6. _tandem_repeat_density.py_: Parse TRF .dat output and create Circos format file
 
-7. _EDTA_summary.py_: 
+   Usage:
 
-8. _TE_density.py_:
+       python3 tandem_repeat_density.py <trf_outfile> <karyotype_file> <output_file> <bin_size>
 
-9. _GC_density.py_: Calculates GC density per chromosomes/contig from an assembly fasta file
+       trf_outfile        Path to the TRF output file.
+       karyotype_file  Path to the Circos karyotype file.
+       output_file     Output file for Circos format.
+       bin_size        Size of the bin for aggregation.
+       -h, --help      Shows help message
+       
 
-10. _circos.conf_: Circos configuration file used in this study
+8. _EDTA_summary.py_: 
+
+9. _TE_density.py_:
+
+10. _GC_density.py_: Calculates GC density per chromosomes/contig from an assembly fasta file
+
+11. _circos.conf_: Circos configuration file used in this study
 
 ## Building the Expression Heatmap: (Withanolide_biosynthesis/Heatmap) 
 _Expression_hm.R:_ R code to plot the expression heatmap 

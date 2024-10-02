@@ -37,13 +37,13 @@ This repository includes code used in the article:
        karyotype_file   Path to the karyotype file (Created in the previous step) 
        window_size      The size of the windows for gene density calculation (e.g., 1000000 for 1Mb windows)
    
-6. _tandem_repeat_density.py_: Parse TRF .dat output and create Circos format file
+6. _tandem_repeat_density.py_: Parses Tandem Repeat Finder (TRF) .dat output file and creates Circos format file
 
    Usage:
 
        python3 tandem_repeat_density.py <trf_outfile> <karyotype_file> <output_file> <bin_size>
 
-       trf_outfile        Path to the TRF output file.
+       trf_outfile     Path to the TRF output file.
        karyotype_file  Path to the Circos karyotype file.
        output_file     Output file for Circos format.
        bin_size        Size of the bin for aggregation.

@@ -4,7 +4,6 @@ library(circlize)
 library(colorRamp2)
 
 heatmapdata1 <- read.delim("Wsom_cluster.txt", header= T, sep=",", row.names = 1)
-# Generate z-scores
 transposedata <-as.matrix(heatmapdata1) 
 z_scores <- log10(transposedata)
 z_scores[is.infinite(z_scores)] <- -3 # Replace Inf values with 0
@@ -46,6 +45,10 @@ heatmap1 <- Heatmap(matrix=finaldata, row_km=3,
                   	title_position = "topcenter",
                   	title_gap = unit(20, "mm")
                 	))
+
+svg(filename = "Ws_hm.svg", width = 12, height = 14, pointsize = 16)
+draw(heatmap1, heatmap_legend_side = "top",padding = unit(c(30, 10, 0, 10), "mm")) # Adjust padding # Place the legend on top
+dev.off()
 
 svg(filename = "/home/nancy/Ws_new_090.svg", width = 15, height = 25, pointsize = 16)
 draw(heatmap1, heatmap_legend_side = "top",padding = unit(c(30, 10, 0, 10), "mm")) # Adjust padding # Place the legend on top

@@ -69,7 +69,7 @@ def process_trf(trf_file, contigs, bin_size, output_file):
 def main():
     parser = argparse.ArgumentParser(description="Process TRF output and calculate tandem repeat densities in non-overlapping bins.")
     
-    cd parser.add_argument("trf_file", help="Path to the TRF output file.")
+    parser.add_argument("trf_file", help="Path to the TRF output file.")
     parser.add_argument("karyotype_file", help="Path to the karyotype file.")
     parser.add_argument("output_file", help="Path to the output file where the bin data will be written.")
     parser.add_argument("bin_size", type=int, help="Bin size to use for non-overlapping windows.")

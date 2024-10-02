@@ -54,9 +54,19 @@ This repository includes code used in the article:
 
 9. _TE_density.py_:
 
-10. _GC_density.py_: Calculates GC density per chromosomes/contig from an assembly fasta file
+10. _GC_density.py_: Calculate GC content of input Fasta sequence in non-overlapping windows and write to an output file
 
-11. _circos.conf_: Circos configuration file used in this study
+    Usage:
+
+        python3 GC_density.py -f input.fa [-b 1000] -o output.txt
+
+        -h, --help                    show help message and exit
+        -f FASTA, --file=FASTA        Input Fasta format file
+        -b BINSIZE, --bin=BINSIZE     default:1000 Bin size for non-overlapping windows
+        -o OUTPUT, --output=OUTPUT    Output file to write the GC content
+
+
+12. _circos.conf_: Circos configuration file used in this study
 
 ## Building the Expression Heatmap: (Withanolide_biosynthesis/Heatmap) 
 _Expression_hm.R:_ R code to plot the expression heatmap 

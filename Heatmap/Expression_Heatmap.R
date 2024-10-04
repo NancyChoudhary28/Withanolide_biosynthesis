@@ -49,7 +49,3 @@ heatmap1 <- Heatmap(matrix=finaldata, row_km=3,
 svg(filename = "Ws_hm.svg", width = 12, height = 14, pointsize = 16)
 draw(heatmap1, heatmap_legend_side = "top",padding = unit(c(30, 10, 0, 10), "mm")) # Adjust padding # Place the legend on top
 dev.off()
-
-svg(filename = "/home/nancy/Ws_new_090.svg", width = 15, height = 25, pointsize = 16)
-draw(heatmap1, heatmap_legend_side = "top",padding = unit(c(30, 10, 0, 10), "mm")) # Adjust padding # Place the legend on top
-dev.off()

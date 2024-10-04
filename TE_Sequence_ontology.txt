@@ -2,8 +2,8 @@
 Modified from https://github.com/oushujun/EDTA/blob/master/util/TE_Sequence_Ontology.txt. The classification is based on Wicker et al.(2007). https://doi.org/10.1038/nrg2165
 ########################################################################################################################################################
 
-Sequence_ontology	Classification	Order	Superfamily
-SO:0000208	Class II/ DNA transposons	TIR	TIR/unknown
+Sequence_ontology	Classification	          Order	Superfamily
+SO:0000208	      Class II/ DNA transposons	TIR	  TIR/unknown
 SO:0000338	Class II/ DNA transposons	TIR	MITE
 SO:0002285	Class II/ DNA transposons	TIR	CACTA
 SO:0002279	Class II/ DNA transposons	TIR	hAT

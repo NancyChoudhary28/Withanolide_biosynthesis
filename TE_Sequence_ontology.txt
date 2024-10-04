@@ -1,55 +1,56 @@
 ########################################################################################################################################################
-Modified from https://github.com/oushujun/EDTA/blob/master/util/TE_Sequence_Ontology.txt. The classification is based on Wicker et al.(2007). https://doi.org/10.1038/nrg2165
+Modified from [EDTA TE sequence ontology file](https://github.com/oushujun/EDTA/blob/master/util/TE_Sequence_Ontology.txt). The classification is based on Wicker et al.(2007). [https://doi.org/10.1038/nrg2165](https://doi.org/10.1038/nrg2165)
 ########################################################################################################################################################
 
-Sequence_ontology	Classification	          Order	Superfamily
-SO:0000208	      Class II/ DNA transposons	TIR	  TIR/unknown
-SO:0000338	Class II/ DNA transposons	TIR	MITE
-SO:0002285	Class II/ DNA transposons	TIR	CACTA
-SO:0002279	Class II/ DNA transposons	TIR	hAT
-SO:0002280	Class II/ DNA transposons	TIR	Mutator
-SO:0002284	Class II/ DNA transposons	TIR	PIF_Harbinger
-SO:0002278	Class II/ DNA transposons	TIR	Tc1_Mariner
-SO:0001535	Class II/ DNA transposons	TIR	P-element
-SO:0002283	Class II/ DNA transposons	TIR	piggyBac
-SO:0001170	Class II/ DNA transposons	TIR	polinton
-SO:0002282	Class II/ DNA transposons	TIR	Transib
-SO:0002281	Class II/ DNA transposons	TIR	Merlin
-SO:0000481	Class II/ DNA transposons	TIR	TIR
-SO:0002277	Class II/ DNA transposons	Crypton	Crypton
-SO:0000544	Class II/ DNA transposons	helitron	helitron
-SO:0000186	ClassI/ Retrotransposon	LTR	LTR/unknown
-SO:0002267	ClassI/ Retrotransposon	LTR	Retrovirus
-SO:0002261	ClassI/ Retrotransposon	LTR	TRIM
-SO:0002260	ClassI/ Retrotransposon	LTR	LARD
-SO:0002264	ClassI/ Retrotransposon	LTR	Copia
-SO:0002265	ClassI/ Retrotransposon	LTR	Gypsy
-SO:0002266	ClassI/ Retrotransposon	LTR	Bel_Pao
-SO:0002268	ClassI/ Retrotransposon	LTR	ERV
-SO:0000435	ClassI/ Retrotransposon	LTR	RR_tract
-SO:0005850	ClassI/ Retrotransposon	LTR	primer_binding_site
-SO:0000286	ClassI/ Retrotransposon	LTR	LTR
-SO:0000189	ClassI/ Retrotransposon	Non-LTR	Non-LTR
-SO:0000194	ClassI/ Retrotransposon	LINE	LINE/unknown
-SO:0002269	ClassI/ Retrotransposon	LINE	R2
-SO:0002271	ClassI/ Retrotransposon	LINE	Jockey
-SO:0002272	ClassI/ Retrotransposon	LINE	L1
-SO:0002273	ClassI/ Retrotransposon	LINE	I
-SO:0002270	ClassI/ Retrotransposon	LINE	RTE
-SO:0000206	ClassI/ Retrotransposon	SINE	SINE/unknown
-SO:0002274	ClassI/ Retrotransposon	SINE	tRNA
-SO:0002276	ClassI/ Retrotransposon	SINE	5S
-SO:0002275	ClassI/ Retrotransposon	SINE	7SL
-SO:0002286	ClassI/ Retrotransposon	YR	YR/ unknown
-SO:0002288	ClassI/ Retrotransposon	YR	Ngaro
-SO:0002287	ClassI/ Retrotransposon	YR	DIRS
-SO:0002289	ClassI/ Retrotransposon	YR	Viper
-SO:0002290	ClassI/ Retrotransposon	PLE	Penelope
-SO:0001797	other	other	centromeric_repeat
-SO:0002257	other	other	knob
-SO:0000005	other	other	satellite_DNA
-SO:0001496	other	other	telomeric_repeat
-SO:0001997	other	other	subtelomere
-SO:0001004	other	other	low_complexity
-SO:0001033	other	other	chloroplast_DNA
-SO:0001032	other	other	mitochondrial_DNA
+| Sequence_ontology | Classification            | Order    | Superfamily         |
+|-------------------|---------------------------|----------|---------------------|
+| SO:0000208        | Class II/ DNA transposons | TIR      | TIR/unknown         |
+| SO:0000338        | Class II/ DNA transposons | TIR      | MITE                |
+| SO:0002285        | Class II/ DNA transposons | TIR      | CACTA               |
+| SO:0002279        | Class II/ DNA transposons | TIR      | hAT                 |
+| SO:0002280        | Class II/ DNA transposons | TIR      | Mutator             |
+| SO:0002284        | Class II/ DNA transposons | TIR      | PIF_Harbinger       |
+| SO:0002278        | Class II/ DNA transposons | TIR      | Tc1_Mariner         |
+| SO:0001535        | Class II/ DNA transposons | TIR      | P-element           |
+| SO:0002283        | Class II/ DNA transposons | TIR      | piggyBac            |
+| SO:0001170        | Class II/ DNA transposons | TIR      | polinton            |
+| SO:0002282        | Class II/ DNA transposons | TIR      | Transib             |
+| SO:0002281        | Class II/ DNA transposons | TIR      | Merlin              |
+| SO:0000481        | Class II/ DNA transposons | TIR      | TIR                 |
+| SO:0002277        | Class II/ DNA transposons | Crypton  | Crypton             |
+| SO:0000544        | Class II/ DNA transposons | helitron | helitron            |
+| SO:0000186        | Class I/ Retrotransposon  | LTR      | LTR/unknown         |
+| SO:0002267        | Class I/ Retrotransposon  | LTR      | Retrovirus          |
+| SO:0002261        | Class I/ Retrotransposon  | LTR      | TRIM                |
+| SO:0002260        | Class I/ Retrotransposon  | LTR      | LARD                |
+| SO:0002264        | Class I/ Retrotransposon  | LTR      | Copia               |
+| SO:0002265        | Class I/ Retrotransposon  | LTR      | Gypsy               |
+| SO:0002266        | Class I/ Retrotransposon  | LTR      | Bel_Pao             |
+| SO:0002268        | Class I/ Retrotransposon  | LTR      | ERV                 |
+| SO:0000435        | Class I/ Retrotransposon  | LTR      | RR_tract            |
+| SO:0005850        | Class I/ Retrotransposon  | LTR      | primer_binding_site |
+| SO:0000286        | Class I/ Retrotransposon  | LTR      | LTR                 |
+| SO:0000189        | Class I/ Retrotransposon  | Non-LTR  | Non-LTR             |
+| SO:0000194        | Class I/ Retrotransposon  | LINE     | LINE/unknown        |
+| SO:0002269        | Class I/ Retrotransposon  | LINE     | R2                  |
+| SO:0002271        | Class I/ Retrotransposon  | LINE     | Jockey              |
+| SO:0002272        | Class I/ Retrotransposon  | LINE     | L1                  |
+| SO:0002273        | Class I/ Retrotransposon  | LINE     | I                   |
+| SO:0002270        | Class I/ Retrotransposon  | LINE     | RTE                 |
+| SO:0000206        | Class I/ Retrotransposon  | SINE     | SINE/unknown        |
+| SO:0002274        | Class I/ Retrotransposon  | SINE     | tRNA                |
+| SO:0002276        | Class I/ Retrotransposon  | SINE     | 5S                  |
+| SO:0002275        | Class I/ Retrotransposon  | SINE     | 7SL                 |
+| SO:0002286        | Class I/ Retrotransposon  | YR       | YR/ unknown         |
+| SO:0002288        | Class I/ Retrotransposon  | YR       | Ngaro               |
+| SO:0002287        | Class I/ Retrotransposon  | YR       | DIRS                |
+| SO:0002289        | Class I/ Retrotransposon  | YR       | Viper               |
+| SO:0002290        | Class I/ Retrotransposon  | PLE      | Penelope            |
+| SO:0001797        | other                     | other    | centromeric_repeat  |
+| SO:0002257        | other                     | other    | knob                |
+| SO:0000005        | other                     | other    | satellite_DNA       |
+| SO:0001496        | other                     | other    | telomeric_repeat    |
+| SO:0001997        | other                     | other    | subtelomere         |
+| SO:0001004        | other                     | other    | low_complexity      |
+| SO:0001033        | other                     | other    | chloroplast_DNA     |
+| SO:0001032        | other                     | other    | mitochondrial_DNA   |

@@ -50,6 +50,6 @@ SO:0002257          	other	                        other    	knob
 SO:0000005          	other	                        other	    satellite_DNA
 SO:0001496          	other	                        other	    telomeric_repeat
 SO:0001997	          other	                        other	    subtelomere
-SO:0001004	other	other	low_complexity
-SO:0001033	other	other	chloroplast_DNA
-SO:0001032	other	other	mitochondrial_DNA
+SO:0001004	          other	                        other	    low_complexity
+SO:0001033	          other	                        other	    chloroplast_DNA
+SO:0001032	          other	                        other	    mitochondrial_DNA

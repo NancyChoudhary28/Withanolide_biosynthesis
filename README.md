@@ -50,17 +50,29 @@ This repository includes code used in the article:
        -h, --help      Shows help message
        
 
-8. _EDTA_summary.py_: 
+7. _TE_density.py_: Calculates the percentage of TEs in the gff3 file
 
-9. _TE_density.py_:
+   Usage:
 
-10. _GC_density.py_: Calculate GC content of input Fasta sequence in non-overlapping windows and write to an output file
+   python3 TE_density.py <karyotype_file> <gff3_file> <so_numbers> <bin_size> <output_file>
+
+       -h, --help          shows help message and exit
+       karyotype_file      Path to the karyotype file.
+       gff3_file           Path to the Whole-genome TE annotation ($genome.mod.EDTA.TEanno.gff3) file from EDTA.
+       so_numbers          Comma-separated sequence ontology numbers (e.g., SO:0002280,SO:0002281).
+       bin_size            Bin size for calculating density.
+       output_file         Output file to save the density information.
+
+      Please refer to the [TE sequence ontology file](https://github.com/NancyChoudhary28/Withanolide_biosynthesis/blob/main/TE_Sequence_ontology.txt) for the sequence ontology numbers. To display a single superfamily, use a       single ontology number (e.g., SO:0002264 for Copia-type LTR retrotransposon) .To display an entire 
+      order, use multiple comma-separated sequence ontology numbers that constitute that order.  
+
+9. _GC_density.py_: Calculate GC content of input Fasta sequence in non-overlapping windows and write to an output file
 
     Usage:
 
         python3 GC_density.py -f input.fa [-b 1000] -o output.txt
 
-        -h, --help                    show help message and exit
+        -h, --help                    shows help message and exit
         -f FASTA, --file=FASTA        Input Fasta format file
         -b BINSIZE, --bin=BINSIZE     default:1000 Bin size for non-overlapping windows
         -o OUTPUT, --output=OUTPUT    Output file to write the GC content

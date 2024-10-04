@@ -18,8 +18,8 @@ SO:0002281	          Class II/ DNA transposons	    TIR	      Merlin
 SO:0000481	          Class II/ DNA transposons	    TIR	      TIR
 SO:0002277	          Class II/ DNA transposons	    Crypton	  Crypton
 SO:0000544	          Class II/ DNA transposons	    helitron	helitron
-SO:0000186	          ClassI/ Retrotransposon      	  LTR	      LTR/unknown
-SO:0002267	          ClassI/ Retrotransposon        	LTR	      Retrovirus
+SO:0000186	          ClassI/ Retrotransposon      	LTR	      LTR/unknown
+SO:0002267	          ClassI/ Retrotransposon       LTR	      Retrovirus
 SO:0002261	          ClassI/ Retrotransposon	      LTR	      TRIM
 SO:0002260	          ClassI/ Retrotransposon	      LTR	      LARD
 SO:0002264	          ClassI/ Retrotransposon      	LTR	      Copia

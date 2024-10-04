@@ -46,7 +46,7 @@ This repository includes code used in the article:
        trf_outfile     Path to the TRF output file.
        karyotype_file  Path to the Circos karyotype file.
        output_file     Output file for Circos format.
-       bin_size        Size of the bin for aggregation.
+       bin_size        Bin size
        -h, --help      Shows help message
        
 
@@ -60,7 +60,7 @@ This repository includes code used in the article:
        karyotype_file      Path to the karyotype file.
        gff3_file           Path to the Whole-genome TE annotation ($genome.mod.EDTA.TEanno.gff3) file from EDTA.
        so_numbers          Comma-separated sequence ontology numbers (e.g., SO:0002280,SO:0002281).
-       bin_size            Bin size for calculating density.
+       bin_size            Bin size 
        output_file         Output file to save the density information.
 
       Please refer to the [TE sequence ontology file](https://github.com/NancyChoudhary28/Withanolide_biosynthesis/blob/main/TE_Sequence_ontology.txt) for the sequence ontology numbers. To display a single superfamily, use a       single ontology number (e.g., SO:0002264 for Copia-type LTR retrotransposon) .To display an entire 

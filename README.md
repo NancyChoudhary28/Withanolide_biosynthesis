@@ -37,7 +37,7 @@ This repository includes code used in the article:
        karyotype_file   Path to the karyotype file (Created in the previous step) 
        window_size      The size of the windows for gene density calculation (e.g., 1000000 for 1Mb windows)
    
-6. _tandem_repeat_density.py_: Parses Tandem Repeat Finder (TRF) .dat output file and creates Circos format file
+6. _tandem_repeat_density.py_: Parses Tandem Repeat Finder [TRF](https://github.com/Benson-Genomics-Lab/TRF) .dat output file and creates Circos format file
 
    Usage:
 
@@ -50,11 +50,11 @@ This repository includes code used in the article:
        -h, --help      Shows help message
        
 
-7. _TE_density.py_: Calculates the percentage of TEs in the gff3 file
+7. _TE_density.py_: Calculates the percentage of TEs from gff3 output file of [EDTA](https://github.com/oushujun/EDTA)
 
    Usage:
 
-   python3 TE_density.py <karyotype_file> <gff3_file> <so_numbers> <bin_size> <output_file>
+       python3 TE_density.py <karyotype_file> <gff3_file> <so_numbers> <bin_size> <output_file>
 
        -h, --help          shows help message and exit
        karyotype_file      Path to the karyotype file.

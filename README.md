@@ -1,6 +1,7 @@
 ![Ws_circos_24_09_github](https://github.com/user-attachments/assets/77a7e889-2c45-438e-b690-810dba5d486e)
 This repository includes code used in the article:   
-# Phylogenomics and metabolic engineering reveal a conserved gene cluster in Solanaceae plants for withanolide biosynthesis https://doi.org/10.1101/2024.09.27.614867
+# Phylogenomics and metabolic engineering reveal a conserved gene cluster in Solanaceae plants for withanolide biosynthesis 
+https://doi.org/10.1101/2024.09.27.614867
 
 ## Building the Circos Plot:(Withanolide_biosynthesis/Circos)
 
@@ -88,4 +89,4 @@ The raw sequencing data for _Withania somnifera_ is available through the Europe
 
 ## References
 If you find the code useful in your research, please cite:
-
+Hakim S.E.*, Choudhary N.*, Malhotra K.*, Peng J.*, Arafa A., Bültemeier A., Friedhoff R., Bauer M., Witte C.-P., Herde M., Heretsch P., Pucker B., Franke J. (2024). Phylogenomics and metabolic engineering reveal a conserved gene cluster in Solanaceae plants for withanolide biosynthesis. bioRxiv 2024.09.27.614867; doi: 10.1101/2024.09.27.614867.

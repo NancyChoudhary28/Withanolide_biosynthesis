@@ -53,7 +53,7 @@ This repository includes code used in the article:
 7. _TE_density.py_: Calculates the percentage of TEs from gff3 output file of [EDTA](https://github.com/oushujun/EDTA)
 
    Usage:
-
+       
        python3 TE_density.py <karyotype_file> <gff3_file> <so_numbers> <bin_size> <output_file>
 
        -h, --help          shows help message and exit

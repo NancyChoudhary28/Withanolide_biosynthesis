@@ -54,3 +54,7 @@ Modified from https://github.com/oushujun/EDTA/blob/master/util/TE_Sequence_Onto
 | SO:0001004        | other                     | other    | low_complexity      |
 | SO:0001033        | other                     | other    | chloroplast_DNA     |
 | SO:0001032        | other                     | other    | mitochondrial_DNA   |
+| SO:0000657        | other                     | other    | repeat_region       |
+| SO:0001050        | other                     | other    | repeat_fragment     |
+| SO:0000274        | other                     | other    | snRNA               |
+| SO:0000013        | other                     | other    | scRNA               |

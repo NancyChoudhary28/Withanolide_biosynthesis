@@ -58,3 +58,13 @@ Modified from https://github.com/oushujun/EDTA/blob/master/util/TE_Sequence_Onto
 | SO:0001050        | other                     | other    | repeat_fragment     |
 | SO:0000274        | other                     | other    | snRNA               |
 | SO:0000013        | other                     | other    | scRNA               |
+| SO:0002360        | other                     | rDNA     | 45s                 |
+| SO:0001860        | other                     | rDNA     | spacer              |
+| SO:0002337        | other                     | rDNA     | 2s                  |
+| SO:0000652        | other                     | rDNA     | 5s                  |
+| SO:0000375        | other                     | rDNA     | 5.8s                |
+| SO:0001000        | other                     | rDNA     | 16s                 |
+| SO:0000407        | other                     | rDNA     | 18s                 |
+| SO:0001001        | other                     | rDNA     | 23s                 |
+| SO:0001002        | other                     | rDNA     | 25s                 |
+| SO:0000653        | other                     | rDNA     | 28s                 |

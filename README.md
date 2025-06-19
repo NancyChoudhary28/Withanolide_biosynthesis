@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15632853.svg)](https://doi.org/10.5281/zenodo.15632853)
+
 ![Ws_circos_24_09_github](https://github.com/user-attachments/assets/77a7e889-2c45-438e-b690-810dba5d486e)
 This repository includes code used in the article:   
 # Phylogenomics and metabolic engineering reveal a conserved gene cluster in Solanaceae plants for withanolide biosynthesis 

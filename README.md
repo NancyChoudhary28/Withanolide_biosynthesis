@@ -94,4 +94,4 @@ The raw sequencing data for _Withania somnifera_ is available through the Europe
 ## References
 If you find the code useful in your research, please cite:
 
-Hakim S.E.&ast;, Choudhary N.&ast;, Malhotra K.&ast;, Peng J.&ast;, Arafa A., Bültemeier A., Friedhoff R., Bauer M., Witte C.-P., Herde M., Heretsch P., Pucker B., Franke J. (2024). Phylogenomics and metabolic engineering reveal a conserved gene cluster in Solanaceae plants for withanolide biosynthesis. bioRxiv 2024.09.27.614867; doi: [10.1101/2024.09.27.614867](https://doi.org/10.1101/2024.09.27.614867).
+Hakim S.E.*, Choudhary N.*, Malhotra K.*, Peng J.*, Arafa A., Bültemeier A., Friedhoff R., Bauer M., Witte C.-P., Herde M., Heretsch P., Pucker B., Franke J. Phylogenomics and metabolic engineering reveal a conserved gene cluster in Solanaceae plants for withanolide biosynthesis. Nature Communications 16, 6367 (2025). https://doi.org/10.1038/s41467-025-61686-1
